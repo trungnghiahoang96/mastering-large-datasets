@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mastering-large-datasets"
+version = "0.1.0"
+description = "python for large datasets"
+authors = ["trungnghiahoang96 <hoangtrungnghiabn@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
