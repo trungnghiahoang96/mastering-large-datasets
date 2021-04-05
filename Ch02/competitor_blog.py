@@ -1,5 +1,5 @@
 from datetime import date
-from urllib import request
+from urllib3 import request
 from toolz import take
 
 

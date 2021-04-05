@@ -7,6 +7,11 @@ authors = ["trungnghiahoang96 <hoangtrungnghiabn@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 numpy = "^1.20.2"
+toolz = "^0.11.1"
+urllib3 = "^1.26.4"
+black = "^20.8b1"
+networkx = "^2.5.1"
+python-twitter = "^3.5"
 
 [tool.poetry.dev-dependencies]
 

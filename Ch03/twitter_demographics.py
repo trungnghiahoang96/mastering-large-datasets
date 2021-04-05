@@ -2,6 +2,7 @@ from multiprocessing import Pool
 from toolz import compose, pipe
 import twitter
 
+
 Twitter = twitter.Api(consumer_key="",
                       consumer_secret="",
                       access_token_key="",
