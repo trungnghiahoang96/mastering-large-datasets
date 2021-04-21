@@ -1,4 +1,4 @@
-from time import clock
+from time import perf_counter
 from multiprocessing import Pool
 
 
@@ -20,8 +20,8 @@ for i in range(0, 9):
   N = 1000000
   chunk_size = 5 * (10**i)
 
-  t1 = clock()
+  t1 = perf_counter()
   parallel_map(range(N), chunk_size)
-  parallel_time = clock() - t1
+  parallel_time = perf_counter() - t1
 
   print("{:<10}  {:>0.3f}".format(chunk_size, parallel_time))

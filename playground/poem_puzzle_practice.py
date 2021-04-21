@@ -52,7 +52,7 @@ if __name__ == "__main__":
     ratio_a = word_ratio(Counter(filter(function_word_or_not, tokens_a)))
     print(ratio_a)
 
-    # maybe chain or iglob is single-use iterator --> recreate tokens
+    # maybe chain (itertool) or iglob is single-use iterator --> recreate tokens
     authora_poems = iglob(
         "/home/nghiaht/pyspark/mastering-large-datasets/Ch04/author_a/*.txt"
     )

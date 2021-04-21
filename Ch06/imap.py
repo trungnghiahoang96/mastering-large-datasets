@@ -13,9 +13,11 @@ with Pool() as P:
   b = P.imap(increase, range(100))
 
 
+
 with Pool() as P:
   c = P.imap_unordered(increase, range(100))
 
 print(a)
 print(b)
 print(c)
+

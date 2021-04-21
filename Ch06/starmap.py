@@ -1,4 +1,6 @@
 from itertools import starmap
+
+
 xs = [7, 3, 1, 19, 11]
 ys = [8, 1, -3, 14, 22]
 

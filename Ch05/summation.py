@@ -11,3 +11,6 @@ print(reduce(my_add, xs, 0))
 
 # With a lambda instead:
 print(reduce(lambda acc, nxt: acc+nxt, xs, 0))
+
+
+

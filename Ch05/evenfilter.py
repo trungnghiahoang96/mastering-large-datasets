@@ -11,3 +11,5 @@ def keep_if_even(acc, nxt):
 
 
 reduce(keep_if_even, xs, [])
+
+

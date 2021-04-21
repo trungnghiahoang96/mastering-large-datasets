@@ -12,3 +12,4 @@ my_products = [
 ]
 
 reduce(lambda acc, nxt: acc+nxt.get("price", 0), my_products, 0)
+

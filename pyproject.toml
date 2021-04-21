@@ -12,6 +12,8 @@ urllib3 = "^1.26.4"
 black = "^20.8b1"
 networkx = "^2.5.1"
 python-twitter = "^3.5"
+dill = "^0.3.3"
+pathos = "^0.2.7"
 
 [tool.poetry.dev-dependencies]
 
